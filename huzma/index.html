@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #283048, #859398); /* Professional gradient background */
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            margin: 0 15px;
+            border: 2px solid white;
+            border-radius: 25px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #3498db;
+            background-color: white;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Soft white background for sections */
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2em;
+            letter-spacing: 1.2px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .card {
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 40%; /* Increased width for a more balanced look */
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px); /* Adds a slight hover effect */
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #34495e;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        /* Centering the Skills section */
+        #skills .content {
+            justify-content: center;
+        }
+
+        /* Enhancing the Skills card */
+        .content .card {
+            text-align: center;
+            padding: 30px;
+            background: #ecf0f1;
+            border: 1px solid #dfe6e9;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #333;
+            text-align: center;
+        }
+
+        section#contact p {
+            font-size: 1.1em;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HUZMA KOUSER</h1>
+        <p>Engineering Student | CSE | Shridevi Institute of Engineering and Technology</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am Huzma Kouser, an engineering student specializing in CSE at Shridevi Institute of Engineering and Technology. 
+            I have a passion for solving complex engineering problems and creating efficient technical solutions. 
+            My areas of interest include Artificial Intelligence, Robotics, and Web Application Development.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="content">
+            <div class="card">
+                <h3>Programming Languages</h3>
+                <p>Python, C, Java, HTML, CSS, JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="content">
+            <div class="card">
+                <img src="C:\Users\kalee\OneDrive\Pictures\h2.png" alt="Project 1">
+                <h3>Task Management</h3>
+                <p>
+                    Task management is the process of breaking down a project into smaller, manageable tasks, assigning them to team members, and tracking progress.
+                    It's a key part of project management and can help improve efficiency, communication, and decision-making.
+                </p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\kalee\OneDrive\Pictures\Screenshots\Screenshot (75).png" alt="Project 2">
+                <h3>Aadhar Management</h3>
+                <p>
+                    The Aadhaar Management System is a digital infrastructure that facilitates the management, issuance, and verification of Aadhaar numbers, a unique 12-digit identification number issued by UIDAI.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="content">
+            <div class="card">
+                <h3>Certified in Python</h3>
+                <p>Completed a comprehensive course on Python, Data Structure, and Algorithms.</p>
+            </div>
+            <div class="card">
+                <h3>NPTEL Online Certification</h3>
+                <p>Successfully completed the course "Problem Solving through Programming in C".</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch with me, you can reach me at: <strong>Huzmakouser@gmail.com</strong></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Huzma Kouser. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
